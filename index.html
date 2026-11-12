@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alphas L Stanly | My Creative Space</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8f3ef;
+  color: #302720;
+  font-family: Georgia, serif;
+  line-height: 1.7;
+}
+
+nav {
+  background: #302720;
+  padding: 18px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 90px 20px;
+  background: #ead8cb;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 15px;
+}
+
+header p {
+  font-size: 19px;
+}
+
+section {
+  padding: 65px 9%;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #80583e;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #00000012;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery div {
+  background: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+button {
+  background: #80583e;
+  border: none;
+  padding: 13px 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #302720;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width:600px) {
+  header h1 {
+    font-size: 36px;
+  }
+  nav a {
+    margin: 5px;
+    font-size: 13px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#drawings">Drawings</a>
+  <a href="#journey">Journey</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+  <p>WELCOME TO MY WORLD</p>
+  <h1>Alphas L Stanly</h1>
+  <p>Welcome to my little creative space ✨</p>
+  <p>Student | Artist | Dreamer</p>
+</header>
+
+<section class="profile">
+  <h2>About Me 🌷</h2>
+
+  <p>
+    Hello! I am Alphas L Stanly, an 11th-standard
+    student from Kerala, India.
+    I love drawing, dancing and learning new things.
+    I can draw and practise Kalaripayattu and Taekwondo.
+    Creativity and learning are important parts of my life.
+  </p>
+</section>
+
+<section id="about">
+  <h2>My Interests</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🎨 Drawing</h3>
+      <p>I enjoy pencil sketches and pen drawings.</p>
+    </div>
+
+    <div class="card">
+      <h3>💃 Dance</h3>
+      <p>Dance is one of my favourite activities.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥋 Martial Arts</h3>
+      <p>I can practise Kalaripayattu and Taekwondo.</p>
+    </div>
+
+    <div class="card">
+      <h3>📚 Favourite Subjects</h3>
+      <p>Math and Physics are my favourite subjects.</p>
+    </div>
+  </div>
+</section>
+
+<section id="drawings">
+  <h2>My Drawing Gallery ✏️</h2>
+  <p>A little collection of my creativity.</p>
+
+  <div class="gallery">
+
+    <div>
+      <img src="drawing1.jpg" alt="My pencil sketch">
+      <h3>Pencil Sketches</h3>
+      <p>My pencil drawing collection.</p>
+    </div>
+
+    <div>
+      <img src="drawing2.jpg" alt="My portrait">
+      <h3>Portraits</h3>
+      <p>Faces and expressions.</p>
+    </div>
+
+    <div>
+      <img src="drawing3.jpg" alt="Creative art">
+      <h3>Creative Art</h3>
+      <p>Ideas brought to life.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="journey">
+  <h2>My Journey 🌱</h2>
+
+  <p>
+    My drawing journey is about learning, practising
+    and improving every day.
+    I especially love pencil and pen drawing styles.
+    Every sketch gives me a chance to learn something new.
+  </p>
+
+  <br>
+
+  <h3>My Future Goal</h3>
+
+  <p>
+    My dream is to become a Data Analyst.
+    I want to explore the world of data, mathematics
+    and technology.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Find Me Online 💌</h2>
+
+  <p>Follow my creative journey on Instagram.</p>
+
+  <button>
+    <a href="https://www.instagram.com/lijalfialphas/"
+       target="_blank" rel="noopener">
+       My Instagram
+    </a>
+  </button>
+</section>
+
+<footer>
+  <p>© 2026 Alphas L Stanly</p>
+  <p>Made with creativity ♡</p>
+</footer>
+
+</body>
+</html>
